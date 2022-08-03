@@ -12,6 +12,6 @@ function camelize(str) {
       return el[0].toUpperCase() + el.slice(1);
     }
   });
-  
+
   return arr.join('');
 }
